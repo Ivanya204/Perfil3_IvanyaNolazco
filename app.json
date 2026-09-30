@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Ivanya App",
+    "slug": "i20240014",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ivanya.evaluacionfinal"
+    },
+    "android": {
+      "package": "com.ivanya.evaluacionfinal",
+      "adaptiveIcon": {
+        "backgroundColor": "#E3E4FB",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#E3E4FB"
+        }
+      ],
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f0af87d4-367e-4a94-87e6-448575ae9ed4"
+      }
+    },
+    "owner": "inoolazcocs-team"
+  }
+}
